@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Notes App Tests">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/demir/IdeaProjects/playwright-api-framework/src/test/java/org/qafellas/tests/UsersTests.java">
+        <classes>
+            <class name="org.qafellas.tests.UsersTests">
+                <methods>
+                    <include name="shouldRegisterUser"/>
+                    <include name="shouldGetAuthorized"/>
+                    <include name="shouldViewUserProfile"/>
+                    <include name="shouldEditUserProfile"/>
+                    <include name="shouldDeleteUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
