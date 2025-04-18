@@ -7,10 +7,10 @@
             <class name="org.qafellas.tests.UsersTests">
                 <methods>
                     <include name="shouldRegisterUser"/>
-                    <include name="shouldGetAuthorized"/>
                     <include name="shouldViewUserProfile"/>
                     <include name="shouldEditUserProfile"/>
                     <include name="shouldDeleteUser"/>
+                    <include name="shouldNotDeleteUser"/>
                 </methods>
             </class>
         </classes>
