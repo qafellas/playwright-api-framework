@@ -8,6 +8,7 @@ import com.microsoft.playwright.APIResponse;
 import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.options.RequestOptions;
 import org.qafellas.apis.UsersApi;
+import org.qafellas.utilities.ConfigReader;
 import org.qafellas.utilities.Helpers;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -26,10 +27,10 @@ public class UsersTests {
     public String tokenUserDeletion;
 
     @BeforeMethod
-    public void setUp(){
-        user = "user621";
-        email = "user621@gmail.com";
-        password = "user608abc";
+    public void setUp() throws IOException {
+        user = ConfigReader.confReader().getProperty("registeryName");
+        email = ConfigReader.confReader().getProperty("registryEmail");
+        password = ConfigReader.confReader().getProperty("registeryPassword");
         usersApi = new UsersApi();
     }
 

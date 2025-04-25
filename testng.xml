@@ -13,6 +13,14 @@
                     <include name="shouldNotDeleteUser"/>
                 </methods>
             </class>
+            <class name="org.qafellas.tests.NotesTests">
+                <methods>
+                    <include name="shouldAddNote"/>
+                    <include name="shouldViewSpecificNote"/>
+                    <include name="shouldNOTViewInvalidNote"/>
+                    <include name="shouldDeleteSpecificNote"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
