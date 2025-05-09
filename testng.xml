@@ -19,7 +19,6 @@
                     <include name="shouldViewSpecificNote"/>
                     <include name="shouldNOTViewInvalidNote"/>
                     <include name="shouldDeleteSpecificNote"/>
-                    <include name="shouldAddNumbers"/>
                 </methods>
             </class>
         </classes>

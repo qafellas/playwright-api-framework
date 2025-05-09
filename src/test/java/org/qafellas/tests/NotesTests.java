@@ -68,8 +68,4 @@ public class NotesTests {
         Assert.assertTrue(responseBodyJson.get("success").asBoolean());
     }
 
-    @Test
-    public void shouldAddNumbers(){
-        Assert.assertEquals(4+5, 8, "The addition is not correct");
-    }
 }
