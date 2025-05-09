@@ -67,4 +67,9 @@ public class NotesTests {
         Assert.assertEquals(responseBodyJson.get("message").asText(), "Note successfully deleted");
         Assert.assertTrue(responseBodyJson.get("success").asBoolean());
     }
+
+    @Test
+    public void shouldAddNumbers(){
+        Assert.assertEquals(4+5, 8, "The addition is not correct");
+    }
 }
